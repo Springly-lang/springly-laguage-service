@@ -3,6 +3,10 @@
 All notable changes to the "springly-laguage-service" extension will be documented in this file.
 
 
+## [0.0.4]
+
+- some duplicate keywords removed.
+
 ## [0.0.3]
 
 - New file extension `.springly` added.

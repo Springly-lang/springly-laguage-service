@@ -6,8 +6,9 @@ This extension provides basic syntax highlighting to the Springly test scripts. 
 
 Syntax highlighting for some new keywords added.
 
-## [0.0.3]
+## [0.0.4]
 
-- New file extension `.springly` added.
-- New keywords added.
-- Minor changes in docs.
+- some duplicate keywords removed.
+
+
+For more info read the [full changelog](CHANGELOG.md) file.
