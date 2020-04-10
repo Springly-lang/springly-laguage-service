@@ -2,7 +2,7 @@
     "name": "springly-laguage-service",
     "displayName": "Springly Laguage Service",
     "description": "An extension to read springly test scripts easily",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "Springly",
     "repository": {
         "url": "https://github.com/Springly-lang/springly-laguage-service",
@@ -15,16 +15,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "springly",
-            "aliases": ["Springly", "springly"],
-            "extensions": [".spr"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "springly",
-            "scopeName": "source.spr",
-            "path": "./syntaxes/springly.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "springly",
+                "aliases": [
+                    "Springly",
+                    "springly"
+                ],
+                "extensions": [
+                    ".spr"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "springly",
+                "scopeName": "source.spr",
+                "path": "./syntaxes/springly.tmLanguage.json"
+            }
+        ]
     }
 }
