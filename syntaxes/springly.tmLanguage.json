@@ -6,6 +6,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#numbers"
+		},
+		{
 			"include": "#comments"
 		},
 		{
@@ -16,6 +19,14 @@
 		}
 	],
 	"repository": {
+		"numbers": {
+			"patterns": [
+				{
+					"name": "numbers",
+					"match": "(\\d{1,15})"
+				}
+			]
+		},
 		"comments": {
 			"patterns": [
 				{
@@ -29,7 +40,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.springly",
-					"match": "\\b(use|test case|open|close|navigate|click|double|right|to|on|in|browser)\\b"
+					"match": "\\b(use|test case|open|close|navigate|click|double|right|to|on|in|browser|wait|for|expect|expects|type|resize|maximize|minimize|until|appears|disappears|check|from|select|equals|equal|contains|not|greater|smaller|than|or|scroll|be|,|second|seconds|minute|minutes|hour|hours|number|of|1st|2nd|3rd|\\d{1,10}th)\\b"
 				}
 			]
 		},

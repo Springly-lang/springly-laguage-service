@@ -2,7 +2,7 @@
     "name": "springly-laguage-service",
     "displayName": "Springly Laguage Service",
     "description": "An extension to read springly test scripts easily",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "Springly",
     "repository": {
         "url": "https://github.com/Springly-lang/springly-laguage-service",
@@ -23,7 +23,7 @@
                     "springly"
                 ],
                 "extensions": [
-                    ".spr"
+                    ".spr", ".springly"
                 ],
                 "configuration": "./language-configuration.json"
             }

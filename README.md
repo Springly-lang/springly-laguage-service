@@ -1,11 +1,13 @@
 # Springly Laguage Service
 
-This extension provides basic syntax highlighting to the Springly test scripts. Read more about [the Sprignly language.](https://github.com/Springly-lang/springly-cli)
+This extension provides basic syntax highlighting to the Springly test scripts. Read more about [the Springly language.](https://github.com/Springly-lang/springly-cli)
 
 ## Release Notes
 
-Some basic syntax highlighting for some keywords added.
+Syntax highlighting for some new keywords added.
 
-### 0.0.1
+## [0.0.3]
 
-Initial release of the extension.
+- New file extension `.springly` added.
+- New keywords added.
+- Minor changes in docs.
