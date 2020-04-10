@@ -1,6 +1,6 @@
 # Springly Laguage Service
 
-This extension provides basic syntax highlighting to the Springly test scripts. Read more about [the Sprignly language.]()
+This extension provides basic syntax highlighting to the Springly test scripts. Read more about [the Sprignly language.](https://github.com/Springly-lang/springly-cli)
 
 ## Release Notes
 

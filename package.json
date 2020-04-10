@@ -3,6 +3,11 @@
     "displayName": "Springly Laguage Service",
     "description": "An extension to read springly test scripts easily",
     "version": "0.0.1",
+    "publisher": "Springly",
+    "repository": {
+        "url": "https://github.com/Springly-lang/springly-laguage-service",
+        "type": "git"
+    },
     "engines": {
         "vscode": "^1.44.0"
     },
